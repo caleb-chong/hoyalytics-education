@@ -5,9 +5,7 @@ import pandas as pd
 
 load_dotenv()
 
-#API_key = os.getenv("API_key", default="demo")
-
-API_key="b9f0ce582ec50b5a9fa3768177b7d945"
+API_key = os.getenv("API_key", default="demo")
 
 url = "https://api.themoviedb.org/3/trending/movie/day?language=en-US"
 
